@@ -16,5 +16,10 @@
         "vue-server-renderer": "^2.7.10",
         "vue-template-compiler": "^2.7.10"
     },
-    "devDependencies": {}
+    "devDependencies": {},
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run format"
+        }
+    }
 }
